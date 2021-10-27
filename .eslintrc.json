@@ -1,3 +1,18 @@
 {
-  "extends": "next/core-web-vitals"
+    "plugins": ["react", "@typescript-eslint"],
+    "extends": [
+        "next",
+        "next/core-web-vitals",
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
+    ],
+    "rules": {
+        //eslint rule
+        "prefer-const": "error",
+        // prettier rule
+        "@typescript-eslint/no-unused-vars": "warn",
+        "@typescript-eslint/no-explicit-any": "warn",
+        // react rule
+        "react/display-name": "warn"
+    }
 }
