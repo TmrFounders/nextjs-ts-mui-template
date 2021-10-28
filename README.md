@@ -1,5 +1,5 @@
 
-## 내일의 창업: 카페 프론트엔드 Getting Started
+## Getting Started
 
 ### Main Tech Stack
 - React
